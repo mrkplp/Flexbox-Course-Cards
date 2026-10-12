@@ -1,0 +1,43 @@
+body {
+  background-color: #eedaed;
+}
+.children {
+  background-color: #ffc9fb;
+  padding: 30px;
+  border: 10px solid rgb(250, 183, 246);
+  margin: 30px;
+  color: rgb(119, 0, 109);
+  font-size: 20px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+H2 {
+  font-size: 25px;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+H1 {
+  color: rgb(119, 0, 109);
+}
+nav a {
+  color: rgb(119, 0, 109);
+
+  text-decoration: none;
+}
+nav {
+  background-color: #ffc9fb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  color: rgb(119, 0, 109);
+  background-color: #eedaed;
+}
